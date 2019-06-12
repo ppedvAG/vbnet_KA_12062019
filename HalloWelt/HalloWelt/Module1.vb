@@ -34,11 +34,12 @@ Module Module1
         Console.WriteLine($"NichtZuGroßeZahl: {nichtZuGroßeZahl} wird zu: {kleineZahl}")
 
         Console.WriteLine("Bitte eine Zahl eingabe")
-        Dim eingabe As String = Console.ReadLine()
+        Dim eingabe = Console.ReadLine()
+
 
         'parsen
-        Dim eingabeAlsInt As Integer = Integer.Parse(eingabe)
-        Dim verdoppeln As Integer = eingabeAlsInt * 2
+        Dim eingabeAlsInt As Decimal = Decimal.Parse(eingabe)
+        Dim verdoppeln As Decimal = eingabeAlsInt * 2
         Console.WriteLine($"Das doppelte ist: {verdoppeln}")
 
         Console.WriteLine(text.ToUpper())
