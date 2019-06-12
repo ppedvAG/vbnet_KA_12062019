@@ -41,9 +41,10 @@ Partial Class Form1
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Yellow
-        Me.Button1.Location = New System.Drawing.Point(98, 27)
+        Me.Button1.Location = New System.Drawing.Point(147, 42)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(269, 76)
+        Me.Button1.Size = New System.Drawing.Size(404, 119)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Klick mich!"
         Me.Button1.UseVisualStyleBackColor = False
@@ -51,39 +52,44 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(380, 129)
+        Me.CheckBox1.Location = New System.Drawing.Point(570, 202)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(136, 29)
         Me.CheckBox1.TabIndex = 1
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(48, 148)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(72, 231)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(250, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(373, 30)
         Me.DateTimePicker1.TabIndex = 3
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(8, 41)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 64)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(148, 30)
         Me.TextBox1.TabIndex = 4
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(6, 87)
+        Me.TextBox2.Location = New System.Drawing.Point(9, 136)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(148, 30)
         Me.TextBox2.TabIndex = 4
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(143, 87)
+        Me.Button2.Location = New System.Drawing.Point(214, 136)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(112, 36)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Summe"
         Me.Button2.UseVisualStyleBackColor = True
@@ -91,9 +97,10 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 18)
+        Me.Label1.Location = New System.Drawing.Point(9, 28)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 17)
+        Me.Label1.Size = New System.Drawing.Size(100, 25)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Eingabe 1"
         '
@@ -104,9 +111,11 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
-        Me.GroupBox1.Location = New System.Drawing.Point(174, 228)
+        Me.GroupBox1.Location = New System.Drawing.Point(261, 356)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(249, 128)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox1.Size = New System.Drawing.Size(374, 200)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Calc"
@@ -114,40 +123,45 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 67)
+        Me.Label2.Location = New System.Drawing.Point(9, 105)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 17)
+        Me.Label2.Size = New System.Drawing.Size(100, 25)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Eingabe 2"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(526, 290)
+        Me.TextBox3.Location = New System.Drawing.Point(633, 294)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(148, 30)
         Me.TextBox3.TabIndex = 4
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(670, 404)
+        Me.Button3.Location = New System.Drawing.Point(851, 486)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(112, 36)
         Me.Button3.TabIndex = 8
         Me.Button3.Text = "Êxit"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(995, 570)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)

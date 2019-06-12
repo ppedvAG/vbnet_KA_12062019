@@ -6,12 +6,25 @@
         TextBox3.Text = Decimal.Parse(TextBox1.Text) + Decimal.Parse(TextBox2.Text)
     End Sub
 
+
+    Dim zahl As Integer = 0
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        CheckBox1.BackColor = Color.LightGray
 
 
-        MessageBox.Show("Hallo")
+        zahl = zahl + 1
+
+        Button1.Text = zahl.ToString()
+
+        Dim einBool As Boolean = CheckBox1.Checked
+
+        If Date.Now.Minute >= 8 Then
+            CheckBox1.BackColor = Color.Yellow
+        Else
+            CheckBox1.BackColor = Color.LightCoral
+        End If
+
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TextBox1.Select()
