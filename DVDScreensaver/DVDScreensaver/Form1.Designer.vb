@@ -75,6 +75,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TrackBar1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Form1"
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

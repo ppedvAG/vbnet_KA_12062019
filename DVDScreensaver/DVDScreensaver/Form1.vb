@@ -3,6 +3,14 @@
 Public Class Form1
 
 
+    Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+    End Sub
+
     Dim toLeft As Integer = 5
     Dim toDown As Integer = 5
     Dim ran As Random = New Random()
