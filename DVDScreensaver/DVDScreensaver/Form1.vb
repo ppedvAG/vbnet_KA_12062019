@@ -17,16 +17,16 @@ Public Class Form1
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
-        Button1.Left = Button1.Left + toLeft
+        MeinButton1.Left = MeinButton1.Left + toLeft
 
-        If Button1.Left + Button1.Width >= ClientSize.Width Or Button1.Left <= 0 Then
+        If MeinButton1.Left + MeinButton1.Width >= ClientSize.Width Or MeinButton1.Left <= 0 Then
             toLeft = toLeft * -1
             MakeFun()
         End If
 
-        Button1.Top = Button1.Top + toDown
+        MeinButton1.Top = MeinButton1.Top + toDown
 
-        If Button1.Top + Button1.Height >= ClientSize.Height Or Button1.Top <= 0 Then
+        If MeinButton1.Top + MeinButton1.Height >= ClientSize.Height Or MeinButton1.Top <= 0 Then
             toDown = toDown * -1
             MakeFun()
         End If
@@ -37,7 +37,7 @@ Public Class Form1
 
 
         Dim newColor = Color.FromArgb(ran.Next(256), ran.Next(256), ran.Next(256))
-        Button1.BackColor = newColor
+        MeinButton1.BackColor = newColor
 
     End Sub
 
@@ -46,9 +46,6 @@ Public Class Form1
         toDown = TrackBar1.Value
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        MakeFun()
-    End Sub
 
 
     Private Sub Button2_MouseMove(sender As Object, e As MouseEventArgs) Handles Button2.MouseMove
